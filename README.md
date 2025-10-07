@@ -24,3 +24,11 @@ This tutorial explores deploying an Active Directory environment, from creation 
 - Setup Remote Desktop for non-administrative users on Client-1
 - Create users and attempt to log into client-1 with one of the users
 <h2>Lifecycle Stages</h2>
+
+<p>
+<img src="https://github.com/user-attachments/assets/e7bbd916-aaab-4319-ba99-b71104f8a810" />
+</p>
+<p>
+
+</p>
+<br />
