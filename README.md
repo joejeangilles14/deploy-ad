@@ -8,7 +8,7 @@ This tutorial explores deploying an Active Directory environment, from creation 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Micorsoft Remote Desktop
 - Powershell
 
 <h2>Operating Systems Used </h2>
@@ -24,6 +24,14 @@ This tutorial explores deploying an Active Directory environment, from creation 
 - Setup Remote Desktop for non-administrative users on Client-1
 - Create users and attempt to log into client-1 with one of the users
 <h2>Lifecycle Stages</h2>
+
+<p>
+<img src="https://github.com/user-attachments/assets/e7bbd916-aaab-4319-ba99-b71104f8a810" />
+</p>
+<p>
+Select both virtual macines, click on the three dots and start them both.
+</p>
+<br />
 
 <p>
 <img src="https://github.com/user-attachments/assets/e7bbd916-aaab-4319-ba99-b71104f8a810" />
