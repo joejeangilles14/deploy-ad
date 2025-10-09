@@ -150,9 +150,153 @@ Left checked boxes as is and created a password (in this case, I used Password1 
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/eefb7a7b-0d5e-44c6-a56b-e4d3b86d4ba8" />
+<img src="https://github.com/user-attachments/assets/bf580b7c-686d-4554-845d-d3e6c59df414" />
 </p>
 <p>
-Uncheck "Create DNS Delegation" and click Next.
+Be sure that "Create DNS Delegation" is unchecked and click Next.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/7617a7af-d4dc-4c61-8775-b1a1e2a6945b" />
+</p>
+<p>
+Click Next.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/4d238bc6-c437-4138-83a6-d39c1ecb2eca" />
+</p>
+<p>
+Click Next.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/4ff8bc83-4cb4-41d5-9485-4b07269d52d3" />
+</p>
+<p>
+Click Next.
+</p>
+<br />
+
+p>
+<img src="https://github.com/user-attachments/assets/fb20ca28-53e8-49a2-89ee-90ae21d46d9c" />
+</p>
+<p>
+Click Install.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/1d471b66-ce4f-484b-9f70-9c947bd36c6e" />
+</p>
+<p>
+The server will close itself. Once closed, wait a few minutes to log back into DC-1.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/933c62e6-086d-4efc-a31f-55b699044cfd" />
+</p>
+<p>
+Log back in using mydomain.com\labuser as the username to access the remote server as a domain.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/985625d5-4e43-4250-922b-3afc9120f917" />
+</p>
+<p>
+Click on the Start menu and select Active Directory Users and Computers under Windows Administrative Tools.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/212c6c36-278d-44c8-a2f0-f8ec11da4d4a" />
+</p>
+<p>
+Right-click on mydomain.com, hover over new and select Organizational Unit.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/8042c2cc-44ff-4f98-93b5-57b5b7fc81e3" />
+</p>
+<p>
+Name the OU "_EMPLOYEES" and click OK.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/8d07466e-a7e2-4c01-874c-2a7eb6bc2c59" />
+</p>
+<p>
+Once the "_EMPLOYEES" organization unit has been created, go back to mydomain.com, hover over New, and select Organiztional Unit.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/198f11f9-38f8-43b9-9101-74acb0508d93" />
+</p>
+<p>
+Name the OU "_ADMINS" and click OK.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/fc22475b-cae4-4931-903a-470c2cc29b92" />
+</p>
+<p>
+Both organizaional units are now created.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/da51ee29-1ebf-4f9b-b782-5ad8f742b1d1" />
+</p>
+<p>
+Right-click on mydomain.com and select Refresh.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/348893d0-761e-4996-84f5-fb6d90865df8" />
+</p>
+<p>
+In the _ADMINS organizational unit right-click, hover over New, and select User.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/1ec7b7ef-4aa5-4f55-ae78-3b7af8cda690" />
+</p>
+<p>
+Create a new user as Jane Smith and select Next.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/364b1b48-8a6f-430c-8c1d-7fa17885933f" />
+</p>
+<p>
+Created a password and check "Password never expires" and used password Cyberlab123! for the sake of the lab. Click Next.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/9f04623e-d539-4905-a218-ada558e29004" />
+</p>
+<p>
+Select Finish.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/3cf7e19a-b61e-445c-a5b9-ad7e9ec2321e" />
+</p>
+<p>
+ In _ADMIN, right-click on the new user and select Properties.
 </p>
 <br />
