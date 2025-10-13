@@ -300,3 +300,165 @@ Select Finish.
  In _ADMIN, right-click on the new user and select Properties.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/a8c26f37-2d7c-4868-881d-15aec925d8d3" />
+</p>
+<p>
+Go to the Member Of tab and click Add.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/f9f0796f-4629-45d1-b616-f5ba831d785a" />
+<img src="https://github.com/user-attachments/assets/bce5b55a-f3de-4467-97f7-ec058cb05672" />
+</p>
+<p>
+Enter "domains admins" as the abject names to select. Click on check names and click OK.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/4619e88f-de86-46dd-827b-5bd99b47e951" />
+</p>
+<p>
+Select Apply.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/fa3ff6e1-0127-4994-9174-be7834a11fd3" />
+<img src="https://github.com/user-attachments/assets/6ad2cd6e-ae6d-4c4a-b7dd-0b6603df05d6" />
+</p>
+<p>
+Click OK then sign out.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/35a633f0-dccc-4734-80c0-cf2e223b03dc" />
+</p>
+<p>
+If not done already, sign in to Client-1. Right-click on the start menu and select System.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/3308a497-9ccd-4795-bace-0b84e5ae6bd2" />
+</p>
+<p>
+Click on Rename this PC (advanced).
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/c0dd82b5-a921-42dd-888d-e2d4041d6ecf" />
+</p>
+<p>
+Under the "Computer Name" tab click on Change.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/c75cabfc-021b-4c7c-bcdd-06a74a483fdd" />
+</p>
+<p>
+Select Domain, type mydomain.com and click OK.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/9484a8f7-f39e-431c-a847-c4aa4b86847e" />
+</p>
+<p>
+This windows security screen should pop up to login as the admin of the domain which is mydomain.com\jane_admin. Enter the password and select OK.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/3d7fc2fd-9c1c-4fe8-a2d7-8d9aed0e8013" />
+</p>
+<p>
+Successfully linked Client-1 to the domain.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/275d4e89-c902-4158-94da-9396dcb1565d" />
+</p>
+<p>
+Click OK to restart.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/a272afaa-e63c-41ba-9b3d-f611e36b6e8a" />
+</p>
+<p>
+Restart the VM.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/89537edc-6445-473f-956a-ace42f2b8d15" />
+</p>
+<p>
+Log back in to DC-1 as mydomain.com\jane_admin. To verify that Client-1 is apart of the domain search Active Directory Users and Computers.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/e1b7117a-1c48-4874-8c7a-eb17805d51e9" />
+</p>
+<p>
+Under mydomain.com, select Computers and Client-1 should be present.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/63992c52-08d7-406e-a285-64295844fb35" />
+</p>
+<p>
+Right-click on mydomain.com, hover over New, and select Organizational Unit.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/f19a4be4-ad7b-468c-bf76-c1f06e05da6d" />
+</p>
+<p>
+Type _CLIENTS for the name and click OK.
+</p>
+<br />
+
+<p>
+<img width="1842" height="1418" alt="image" src="https://github.com/user-attachments/assets/01eef940-6b75-47c0-b3f4-87a6900b8421" />
+</p>
+<p>
+Go back to Computers and drag Client-1 to _CLIENTS.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/0e637b1e-621c-4db7-816b-289d32be5819" />
+</p>
+<p>
+Select Yes.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/311f27cb-44e0-432f-bde1-c5de5928d946" />
+</p>
+<p>
+Right-click on mydomain.com and click Refresh.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/272a7005-bba9-4de7-b728-4becc8db02d4" />
+</p>
+<p>
+To conclude this lab, go back in Azure select both virtual machines, click on the three dots and select Stop then YES.
+</p>
+<br />
